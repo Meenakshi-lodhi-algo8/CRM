@@ -1,0 +1,21 @@
+{
+    express
+    express-async-handler
+    mongodb 
+    mongoose
+    winston
+}
+
+// USER MANAGEMENT AND ROLES
+{
+  Role: {
+    SuperAdmin: 'superadmin',
+    Admin: 'admin',
+    Agent: 'agent'
+  },
+  Users:[
+    {id: 1, name: 'Raunak', role: Role.SuperAdmin},
+    {id: 2, name: 'Dev', role: Role.Admin},
+    {id: 3, name: 'Nitesh', role: Role.Agent},
+  ]
+}
